@@ -32,7 +32,7 @@
 #gvl-homepage .gvl-teaching-intro h1,
 #gvl-homepage .gvl-leadership-intro h1 {
   grid-column: 1;
-  grid-row: 2 / span 4;
+  grid-row: 1 / span 4;
   max-width: none;
 }
 #gvl-homepage .gvl-research-intro > p:not(.gvl-eyebrow),
