@@ -1,0 +1,59 @@
+#gvl-homepage{line-height:1.6}
+#gvl-homepage .gvl-hero h1,
+#gvl-homepage .gvl-research-intro h1,
+#gvl-homepage .gvl-publications-intro h1,
+#gvl-homepage .gvl-teaching-intro h1,
+#gvl-homepage .gvl-leadership-intro h1{font-size:44.67px;line-height:1.12;margin-bottom:18px}
+#gvl-homepage h2,
+#gvl-homepage .gvl-research-view-section h2,
+#gvl-homepage .gvl-pub-section h2,
+#gvl-homepage .gvl-teaching-section h2,
+#gvl-homepage .gvl-leadership-section h2{font-size:26.67px;margin-bottom:18px}
+#gvl-homepage .gvl-detail-title,
+#gvl-homepage .gvl-pub-section .gvl-detail-title,
+#gvl-homepage .gvl-teaching-section .gvl-detail-title,
+#gvl-homepage .gvl-leadership-section .gvl-detail-title,
+#gvl-homepage .gvl-agenda h3,
+#gvl-homepage .gvl-conference-item h3{font-size:20.67px}
+#gvl-homepage .gvl-thesis-heading{font-size:22.67px}
+#gvl-homepage .gvl-hero-copy p,
+#gvl-homepage .gvl-detail-description{line-height:1.6}
+#gvl-homepage .gvl-hero{padding:48px 0 40px}
+#gvl-homepage .gvl-research-intro,
+#gvl-homepage .gvl-publications-intro,
+#gvl-homepage .gvl-teaching-intro,
+#gvl-homepage .gvl-leadership-intro{padding:40px 0 28px}
+#gvl-homepage .gvl-section{padding:30px 0}
+#gvl-homepage .gvl-research-view-section,
+#gvl-homepage .gvl-pub-section,
+#gvl-homepage .gvl-teaching-section,
+#gvl-homepage .gvl-leadership-section{padding:28px 0}
+#gvl-homepage .gvl-detail{padding:17px 0}
+#gvl-homepage .gvl-detail-body{padding-top:16px}
+#gvl-homepage .gvl-fields{margin-bottom:20px}
+#gvl-homepage .gvl-eyebrow{margin-bottom:18px}
+#gvl-homepage p{margin-bottom:14px}
+#gvl-homepage p:last-child{margin-bottom:0}
+#gvl-homepage .cursor-interaction{cursor:pointer}
+@media(max-width:620px){
+  #gvl-homepage .gvl-hero h1,
+  #gvl-homepage .gvl-research-intro h1,
+  #gvl-homepage .gvl-publications-intro h1,
+  #gvl-homepage .gvl-teaching-intro h1,
+  #gvl-homepage .gvl-leadership-intro h1{font-size:36.67px}
+  #gvl-homepage h2,
+  #gvl-homepage .gvl-research-view-section h2,
+  #gvl-homepage .gvl-pub-section h2,
+  #gvl-homepage .gvl-teaching-section h2,
+  #gvl-homepage .gvl-leadership-section h2{font-size:24.67px}
+  #gvl-homepage .gvl-hero{padding:34px 0 30px}
+  #gvl-homepage .gvl-research-intro,
+  #gvl-homepage .gvl-publications-intro,
+  #gvl-homepage .gvl-teaching-intro,
+  #gvl-homepage .gvl-leadership-intro{padding:30px 0 23px}
+  #gvl-homepage .gvl-section,
+  #gvl-homepage .gvl-research-view-section,
+  #gvl-homepage .gvl-pub-section,
+  #gvl-homepage .gvl-teaching-section,
+  #gvl-homepage .gvl-leadership-section{padding:24px 0}
+}

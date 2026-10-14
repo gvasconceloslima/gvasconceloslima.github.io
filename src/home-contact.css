@@ -1,0 +1,20 @@
+#gvl-homepage .gvl-profile-column {min-width:0}
+#gvl-homepage .gvl-profile-contact {margin-top:18px;scroll-margin-top:24px}
+#gvl-homepage .gvl-profile-links {display:flex;flex-direction:row;flex-wrap:nowrap;gap:20px;align-items:center;justify-content:flex-start}
+#gvl-homepage #gvl-home-view .gvl-portrait {margin-left:auto;margin-right:auto}
+#gvl-homepage #gvl-home-view .gvl-fields span:not(:last-child)::after {content:'•'}
+#gvl-homepage .gvl-profile-links a {display:inline-flex;align-items:center;gap:5px;min-height:30px;font-size:13.67px;color:#700c02;text-decoration:none;white-space:nowrap;flex-shrink:0}
+#gvl-homepage .gvl-profile-links a:hover {text-decoration:underline;text-underline-offset:4px}
+#gvl-homepage .gvl-profile-links a span {font-size:12.67px}
+@media(min-width:621px){
+  #gvl-homepage #gvl-home-view .gvl-hero-layout {grid-template-columns:clamp(220px,26vw,340px) minmax(0,1fr);gap:32px}
+  #gvl-homepage #gvl-home-view .gvl-portrait {height:auto;width:calc(var(--gvl-profile-height,230px) * .8 + 2.8px);max-width:100%}
+  #gvl-homepage #gvl-home-view .gvl-portrait img {height:auto;aspect-ratio:4/5}
+}
+@media(max-width:620px){
+  #gvl-homepage .gvl-profile-column {max-width:200px;width:100%;justify-self:center}
+  #gvl-homepage .gvl-profile-contact {margin-top:18px}
+  #gvl-homepage .gvl-profile-links {flex-wrap:wrap;gap:4px 16px}
+  #gvl-homepage .gvl-profile-links a {min-height:44px}
+  #gvl-homepage .gvl-profile-links a span {display:none}
+}
